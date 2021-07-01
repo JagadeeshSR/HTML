@@ -1,2 +1,36 @@
 # HTML
 Web developing using HTML &amp; CSS
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="icon" href="Images/iron.jpg"/>
+    </head>
+    
+        <img src="Images/bck.jpg" width=300px alt="image"/>
+        <img src="Images/img.jpg" width=300px alt="image"/>
+        <img src="Images/img3.jpg" width=300px alt="image"/>
+        <img src="Images/img1.jpg" width=300px alt="image"/>
+        <img src="Images/img2.jpg" width=300px alt="image"/>
+        
+
+    <video controls width="300px" autoplay>
+        <source src="Videos/Iceland.mp4"/>
+    </video>
+
+    <video controls width="300px" autoplay>
+        <source src="Videos/Maldives- 4K.mp4"/>
+    </video>
+
+    <video Controls width="300px" autoplay>
+        <source src="Videos/Nature-4K.mp4"/>
+    </video>
+
+    <audio controls width="200px" >
+        <source src="Audio/cinematic.mp3" />
+    </audio>
+
+    <audio controls>
+        <source src="Audio/Nature.mp3"/>
+    </audio>
+</html>
