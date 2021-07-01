@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+    background-color:deepskyblue
+}
+.two
+{
+    color: black;
+    background-color: cadetblue;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+}
