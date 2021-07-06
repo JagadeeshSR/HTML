@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+/* css for header */
+.header{
+    height: 60px;
+    width: 100%;
+    background-color:rgba(28, 132, 236, 0.39);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    width:80%;
+    /* height: 70px; */
+    /* background-color: crimson; */
+    display: flex;
+    /* align-items: center; */
+
+}
+.header_container{
+    justify-content: space-between;
+
+}
+
+.logo{
+    /* height: 60px; */
+    width: 15%;
+    /* background-color: darkgoldenrod; */
+    font-size: 50px;
+    line-height: 60px;
+    font-family: segoe UI;
+    /* text-align: center; */
+    color: white;
+    font-weight: bold;
+
+}
+.nav{
+    height: 60px;
+    width: 35%;
+    /* background-color: darkkhaki; */
+    display: flex;
+}
+
+.nav-item{
+    width: 20%;
+    height: 60px;
+    /* background-color: darksalmon; */
+    /* font-size: 16px; */
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;
+    color:white;
+    border-radius: 3px;
+    transition: .4s;
+   
+
+}
+.nav-item:hover{
+    background-color: rgb(233, 221, 221);
+    color:rgb(85, 138, 235);
+}
+.banner{
+    height: 700px;
+    width: 100%;
+    background-color: gray;
+    background-image: url("Images/Comp.jpg");
+    background-size: cover;
+
+}
+.overlay{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.banner_text{
+    height: 300px;
+    width: 50%;
+    background-color:rgba(0,0,0,0.7);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color:khaki;
+    border-radius: 50px;
+
+}
+.banner_title{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: segoe UI;
+  margin-bottom: 10px;
+}
+.banner_desc{
+    margin-bottom: 50px;
+    font-family: segoe UI;
+}
+.padd{
+    padding: 20px;
+    /* background-color: honeydew; */
+}
+.banner_btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: segoe UI;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 20px;
+}
+.banner_btn:hover{
+    background-color: white;
+    color:rgb(85, 138, 235);
+}
+
+/* css for services */
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(111, 210, 235);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    font-family: segoe UI;
+
+}   
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+.service{
+    height: 250px;
+    width: 40%;
+    background-color: rgb(31, 139, 182);
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+.service_img{
+    width:40%;
+    height:250px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.service_details{
+    width:60%;
+    height: 200px;
+    color:white;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 10px;
+  }
+  .serv-padd{
+    padding:10px;
+  }
+  .serv-title{
+    margin-bottom: 25px;
+  }
+  .serv-desc{
+    margin-bottom: 20px;
+  }
+  .serv-but{
+    font-size: 20px;
+    font-family: segoe UI;
+    font-weight: bold;
+    color:white;
+    background-color: transparent;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:3px solid white;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+  }
+  .serv-but:hover{
+    background-color: white;
+    color:rgba(16, 128, 234, 0.7);
+  }
+  /* service end */
+  /* Introduce */
+  .about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+    background-color: #302e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: segoe UI;
+    color:white;
+  
+  }
+  .ab-cont{
+    margin-top: 30px;
+    width:50%;
+    display: inline;
+  }
+  .ab-txt{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  /* introduce ends */
+  
+  /* highlight start */
+  .highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+    display: flex;
+    background-color: #ae3db0;
+    justify-content: center;
+  }
+  .high-cont{
+    display: flex;
+    justify-content: space-between;
+  }
+  .high-txt{
+    width: 20%;
+    height: 150px;
+    background-color: #ba68c8;
+    border-radius: 30px;
+    font-family: segoe UI;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .high-title{
+    text-align: center;
+  }
+  /* highlight ends */
+  
+  /* quote start */
+  .quote{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #c4b1dc;
+    display: flex;
+    justify-content: center;
+  }
+  .qt-cont{
+    flex-direction: column;
+    align-items: center;
+  }
+  .qt-btn{
+    font-size: 20px;
+    font-family: segoe UI;
+    font-weight: bold;
+    color:white;
+    background-color: transparent;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:3px solid white;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .qt-btn:hover{
+    background-color: white;
+    color:#ba68c8;
+  }
+  /* quote ends */
+  
+  /* portfolio starts */
+  .portfolio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .port-cont{
+    flex-wrap: wrap;
+  }
+  .project{
+    width: 25%;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    overflow: hidden;
+  }
+  .pro-1{
+    background-image: url('./images/science.jpg');
+    background-size: cover;
+  }
+  .pro-2{
+    background-image: url('./images/history.jpeg');
+    background-size: cover;
+    align-items: flex-end;
+  }
+  .pro-3{
+    background-image: url('./images/medical.jpg');
+    background-size: cover;
+  }
+  .pro-4{
+    background-image: url('./images/library.jpeg');
+    background-size: cover;
+    align-items: flex-end
+  }
+  .pro-5{
+    background-image: url('./images/maths.jpeg');
+    background-size: cover;
+  }
+  .pro-6{
+    background-image: url('./images/sports1.jpg');
+    background-size: cover;
+    align-items: flex-end
+  }
+  .pro-7{
+    background-image: url('./images/Comp.jpg');
+    background-size: cover;
+  }
+  .pro-8{
+    background-image: url('./images/music1.jpg');
+    background-size: cover;
+    align-items: flex-end
+  }
+  .pro-title{
+    width: 100%;
+    height: 70px;
+    text-indent: 15px;
+    line-height: 70px;
+    background-color: rgba(186,104,200,0.5);
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s
+  }
+  .pro-title:hover{
+    height: 100%;
+  }
+  /* portfolio ends */
+  
+  /* footer starts */
+  .footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: #302e2e;
+    display: flex;
+    justify-content: center;
+  }
+  .foot-cont{
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot-ele{
+    width: 20%;
+    height: 200px;
+    /* background-color: blue; */
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+  }
+  .ele1{
+    align-items: center;
+  }
+  .foot-title{
+    font-size: 30px;
+    color: white;
+  }
+  ul{
+    margin-top: 10px;
+  }
+  li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .x1{
+    font-size: 20px;
+  }
+  .ele4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ele4-cont{
+    width: 70%;
+    justify-content: space-between;
+  }
+  .so-i{
+    width: 40px;
+    height: 40px;
+    /* background-color: black; */
+  }
+  .si1{
+    background-image: url('./images/fb.png');
+    background-size: cover;
+  }
+  .si2{
+    background-image: url('./images/insta.jpg');
+    background-size: cover;
+  }
+  .si3{
+    background-image: url('./images/linked.jpg');
+    background-size: cover;
+  }
+  .si4{
+    background-image: url('./images/git.png');
+    background-size: cover;
+  }
